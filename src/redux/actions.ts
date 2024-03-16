@@ -1,6 +1,3 @@
-import { Action } from 'redux';
-import { ThunkAction } from 'redux-thunk';
-import { RootState } from './store';
 import { Product } from '../types';
 
 export const FETCH_PRODUCTS_SUCCESS = 'FETCH_PRODUCTS_SUCCESS';

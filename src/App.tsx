@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {removeFromCart, updateQuantity, setCartItems} from './redux/actions';
 import { RootState } from './redux/store';
-import { Grid, Card, CardMedia, CardContent, Typography, IconButton } from '@material-ui/core';
-import { Add, Remove, Delete } from '@material-ui/icons';
+import { Grid, Card, CardMedia, CardContent, Typography, IconButton } from '@mui/material';
+import { Add, Remove, Delete } from '@mui/icons-material';
 import { CartItem } from './types';
 
 const App: React.FC = () => {
